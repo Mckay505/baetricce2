@@ -10,7 +10,7 @@ const ServicesSection = () => {
       title: "Corporate Events",
       description: "Impress clients and colleagues with our professional catering for meetings, conferences, and company celebrations.",
       icon: Building,
-      imageUrl: "https://images.unsplash.com/photo-1611355724042-21f5e0feaa4f?q=80&w=2070&auto=format&fit=crop"
+      imageUrl: "https://cateringculture.com.sg/wp-content/uploads/2020/08/Buffet-2.jpg",
     },
     {
       title: "Weddings",
@@ -20,27 +20,27 @@ const ServicesSection = () => {
     },
     {
       title: "Private Dining",
-      description: "Turn your home into an exclusive restaurant with our personal chef service for intimate gatherings and special occasions.",
+      description: "Turn your home into an exclusive restaurant with our personal Beatrice Mortey's chef service for intimate gatherings and special occasions.",
       icon: UtensilsCrossed,
-      imageUrl: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?q=80&w=2070&auto=format&fit=crop"
+      imageUrl: "https://fastly.4sqi.net/img/general/600x600/149837103_quUrzk3kjHduYCas6hQfYS5MWqhw2PGSCRygyw5ti5Y.jpg",
     },
     {
       title: "Social Gatherings",
       description: "From birthday parties to family reunions, we create festive food experiences that bring people together.",
       icon: PartyPopper,
-      imageUrl: "https://images.unsplash.com/photo-1528605248644-14dd04022da1?q=80&w=2070&auto=format&fit=crop"
+      imageUrl: "https://i.pinimg.com/originals/1e/89/13/1e891356ce9dd34ca11cf35573f483c2.png",
     },
     {
-      title: "Cocktail Receptions",
+      title: "funerals (we take orders for funeral events in Ghana",
       description: "Mingle in style with our elegant appetizers and expert bartending service for sophisticated social events.",
       icon: Wine,
-      imageUrl: "https://images.unsplash.com/photo-1605270012917-bf357a1fdf33?q=80&w=2069&auto=format&fit=crop"
+      imageUrl: "https://images.pexels.com/photos/8865418/pexels-photo-8865418.jpeg",
     },
     {
-      title: "Gala Dinners",
+      title: "food takeaways(u can make your own food combinations with different foods and package it for yourself or as a suprise for your loved ones!",
       description: "Elevate your fundraisers and formal events with exquisite multi-course menus and white-glove service.",
       icon: Users,
-      imageUrl: "https://images.unsplash.com/photo-1531058020387-3be344556be6?q=80&w=2070&auto=format&fit=crop"
+      imageUrl: "https://i.pinimg.com/750x/f6/0d/b0/f60db04a5c86ba7f041da715367ae404.jpg",
     }
   ];
 

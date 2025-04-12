@@ -6,7 +6,7 @@ const TestimonialsSection = () => {
   const testimonials = [
     {
       quote: "The food was simply outstanding. Our wedding guests are still raving about the menu, and the service was flawless from start to finish.",
-      author: "Emily & David Johnson",
+      author: "Emily & David Ntumy",
       role: "Wedding Clients",
       rating: 5,
       event: "Wedding Reception",
@@ -14,35 +14,35 @@ const TestimonialsSection = () => {
     },
     {
       quote: "Gourmet Catering handled our corporate event with professionalism and creativity. The presentation was as impressive as the taste.",
-      author: "Michael Chen",
+      author: "Michael Asare",
       role: "Marketing Director",
       rating: 5,
       event: "Annual Corporate Gala"
     },
     {
       quote: "I've worked with many caterers over the years, but none compare to the quality and attention to detail that this team provides.",
-      author: "Sarah Williams",
+      author: "Sarah Lomotey",
       role: "Event Planner",
       rating: 5,
       event: "Charity Fundraiser"
     },
     {
       quote: "Our family reunion was a success thanks to the amazing spread they provided. They accommodated all our dietary needs without sacrificing flavor.",
-      author: "Robert Garcia",
+      author: "Robert Anderson",
       role: "Private Client",
       rating: 4,
       event: "Family Gathering"
     },
     {
       quote: "The tasting session alone was enough to convince us we had found the perfect caterer. They delivered on every promise and more.",
-      author: "Jennifer & Mark Taylor",
+      author: "Jennifer & Mark Adjei",
       role: "Wedding Clients",
       rating: 5,
       event: "Wedding Reception"
     },
     {
       quote: "Not only was the food exceptional, but the staff was friendly and professional. They made our event stress-free and memorable.",
-      author: "Lisa Anderson",
+      author: "Lisa Ayitey",
       role: "Birthday Celebrant",
       rating: 5,
       event: "50th Birthday Party",

@@ -11,8 +11,9 @@ const MenuSection = () => {
     {
       name: "Jollof Rice with Chicken",
       description: "Spicy rice dish cooked in a rich tomato and pepper sauce, served with grilled chicken and fried plantains",
-      price: "GH₵85",
-      image: "https://images.unsplash.com/photo-1644372723344-fba4c0db2ddc?q=80&w=2070&auto=format&fit=crop",
+      price: "GH₵60",
+      image: "https://foodnerdy.com/blog/wp-content/uploads/2021/05/3-5-1170x878.jpg",
+
       category: "Main Course",
       dietary: ["Gluten-Free"],
       featured: true,
@@ -21,8 +22,9 @@ const MenuSection = () => {
     {
       name: "Waakye",
       description: "Rice and beans cooked together with millet leaves, served with stew, spaghetti, gari, and fried plantain",
-      price: "GH₵65",
-      image: "https://images.unsplash.com/photo-1604329760661-e71dc83f8f26?q=80&w=2070&auto=format&fit=crop",
+      price: "GH₵45",
+      image: "https://www.sophiaapenkro.com/wp-content/uploads/2023/06/Waakye.jpeg",
+
       category: "Main Course",
       dietary: ["Vegetarian option available"],
       type: "mains"
@@ -30,16 +32,17 @@ const MenuSection = () => {
     {
       name: "Kelewele",
       description: "Spicy fried plantains seasoned with ginger, cayenne pepper, and other spices",
-      price: "GH₵35",
+      price: "GH₵40",
+      image: "https://i.ytimg.com/vi/5rUJjkWbhAc/maxresdefault.jpg",
       category: "Appetizer",
       dietary: ["Vegan", "Gluten-Free"],
       type: "appetizers"
     },
     {
-      name: "Ghanaian Meze Platter",
+      name: "Assorted Fried Rice",
       description: "Selection of Kelewele, Meat Pie, Shito Dip, Roast Peanuts, and Fried Yam",
-      price: "GH₵95",
-      image: "https://images.unsplash.com/photo-1695653422259-8a74ffe90bf6?q=80&w=2070&auto=format&fit=crop",
+      price: "GH₵60",
+      image: "https://sisijemimah.com/wp-content/uploads/2015/07/IMG_0011_20200824075644597-scaled.jpg",
       category: "Sharing Platter",
       featured: true,
       type: "appetizers"
@@ -48,7 +51,7 @@ const MenuSection = () => {
       name: "Banku with Tilapia",
       description: "Fermented corn and cassava dough served with grilled tilapia, pepper sauce, and fresh vegetables",
       price: "GH₵110",
-      image: "https://images.unsplash.com/photo-1573806196892-8e9021f320cc?q=80&w=2070&auto=format&fit=crop",
+      image: "https://redyfood.com/wp-content/uploads/2022/10/banku-and-tilapia-2.jpg",
       category: "Main Course",
       dietary: ["Gluten-Free"],
       featured: true,
@@ -57,7 +60,8 @@ const MenuSection = () => {
     {
       name: "Kontomire Stew",
       description: "Cocoyam leaves cooked with egusi seeds, smoked fish, and palm oil, served with boiled yam or plantain",
-      price: "GH₵70",
+      price: "GH₵35", 
+      image: "https://gingerandseasalt.com/wp-content/uploads/2023/03/kontomire-agushi-stew-768x768.jpg",
       category: "Main Course",
       dietary: ["Gluten-Free"],
       type: "mains"
@@ -65,7 +69,8 @@ const MenuSection = () => {
     {
       name: "Groundnut Soup",
       description: "Rich peanut-based soup with tender goat meat, served with fufu or rice balls",
-      price: "GH₵75",
+      price: "GH₵50",
+      image: "https://api.flavournetwork.ca/wp-content/uploads/2023/01/groundnut-soup-feat.jpg",
       category: "Soup",
       type: "mains"
     },
@@ -73,15 +78,16 @@ const MenuSection = () => {
       name: "Fufu with Light Soup",
       description: "Pounded cassava and plantain dumpling served with spicy broth containing goat meat or fish",
       price: "GH₵95",
-      image: "https://images.unsplash.com/photo-1641277667902-1776a952c861?q=80&w=2071&auto=format&fit=crop",
+      image: "https://i.pinimg.com/originals/26/b9/e9/26b9e93b653e51e328b0cb824e834f08.jpg",
       category: "Main Course",
       featured: true,
       type: "mains"
     },
     {
-      name: "Boflot (Ghanaian Donuts)",
+      name: "Apaprensa with crab (local delicacy)",
       description: "Sweet, fluffy deep-fried dough balls, lightly dusted with sugar",
-      price: "GH₵25",
+      price: "GH₵60",
+      image: "https://i.ytimg.com/vi/gX8F6MCMce4/maxresdefault.jpg",
       category: "Dessert",
       dietary: ["Vegetarian"],
       type: "desserts"

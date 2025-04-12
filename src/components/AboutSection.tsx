@@ -40,7 +40,7 @@ const AboutSection = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             <div className="bg-white p-6 rounded-lg shadow-md">
               <Utensils className="h-10 w-10 text-catering-700 mb-4" />
-              <h4 className="text-xl font-semibold mb-2">Gourmet Cuisine</h4>
+              <h4 className="text-xl font-semibold mb-2">Beatrice cuisine</h4>
               <p className="text-gray-600">
                 We create exquisite dishes that blend innovation with tradition, using only the finest ingredients.
               </p>

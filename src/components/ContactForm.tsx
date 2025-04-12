@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -27,9 +26,9 @@ const ContactForm = () => {
     setFormData(prev => ({ ...prev, eventType: value }));
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    
+
     // Basic validation
     if (!formData.name || !formData.email || !formData.phone) {
       toast({
@@ -39,33 +38,52 @@ const ContactForm = () => {
       });
       return;
     }
-    
-    // In a real application, you would submit the form data to a server here
-    console.log("Form submitted:", formData);
-    
-    // Show success message
-    toast({
-      title: "Inquiry Sent!",
-      description: "We'll contact you shortly to discuss your event.",
+
+    // Send form data to Formspree
+    const response = await fetch('https://formspree.io/f/xgvadzde', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        name: formData.name,
+        email: formData.email,
+        phone: formData.phone,
+        eventType: formData.eventType,
+        date: formData.date,
+        guests: formData.guests,
+        message: formData.message
+      })
     });
-    
-    // Reset form
-    setFormData({
-      name: '',
-      email: '',
-      phone: '',
-      eventType: '',
-      date: '',
-      guests: '',
-      message: ''
-    });
+
+    if (response.ok) {
+      toast({
+        title: "Inquiry Sent!",
+        description: "We'll contact you shortly to discuss your event.",
+      });
+      setFormData({
+        name: '',
+        email: '',
+        phone: '',
+        eventType: '',
+        date: '',
+        guests: '',
+        message: ''
+      });
+    } else {
+      toast({
+        title: "Error Sending Inquiry",
+        description: "There was an issue with submitting your form. Please try again later.",
+        variant: "destructive"
+      });
+    }
   };
 
   return (
     <div className="bg-white p-8 rounded-lg shadow-md">
       <h3 className="text-2xl font-playfair font-semibold mb-6">Request a Quote</h3>
       
-      <form onSubmit={handleSubmit} className="space-y-5">
+      <form onSubmit={handleSubmit} method="POST" className="space-y-5">
         <div>
           <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">
             Name *
