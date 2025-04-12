@@ -9,7 +9,7 @@ const ContactInfo = () => {
         <Phone className="h-5 w-5 text-catering-700 mt-1 mr-4" />
         <div>
           <h4 className="font-semibold mb-1">Phone</h4>
-          <p className="text-gray-600">Main Office: (233) 24-456-7890</p>
+          <p className="text-gray-600">Main Office: +233-20-820-0838</p>
           <p className="text-gray-600">Bookings: (233) 20-123-4567</p>
         </div>
       </div>
