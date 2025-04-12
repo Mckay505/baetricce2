@@ -19,11 +19,11 @@ const Hero = () => {
       {/* Content */}
       <div className="container-custom relative z-10 text-center">
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
-          Exceptional Catering <br />
+          Authentic Ghanaian Cuisine <br />
           <span className="text-gold-400">For Every Occasion</span>
         </h1>
         <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto mb-8">
-          Elevate your events with our gourmet catering services, where every dish tells a story of passion and excellence.
+          Experience the rich flavors and traditions of Ghana with Beatrice Mortey's premium catering services.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Button className="button-primary bg-catering-700 text-lg px-8 py-6">

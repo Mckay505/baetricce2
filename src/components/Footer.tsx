@@ -13,11 +13,11 @@ const Footer = () => {
           <div>
             <div className="flex items-center space-x-2 mb-4">
               <ChefHat className="h-8 w-8 text-catering-400" />
-              <span className="font-playfair text-xl font-bold">Gourmet Catering</span>
+              <span className="font-playfair text-xl font-bold">Beatrice Mortey's Catering</span>
             </div>
             <p className="text-gray-400 mb-4">
-              Creating memorable culinary experiences for special occasions since 2008. 
-              Our passion is bringing people together through exceptional food.
+              Sharing the authentic taste of Ghana since 2008. 
+              Our passion is bringing people together through traditional Ghanaian cuisine.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-white transition-colors">
@@ -54,7 +54,7 @@ const Footer = () => {
               <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Wedding Catering</a></li>
               <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Corporate Events</a></li>
               <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Private Dining</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Cocktail Receptions</a></li>
+              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Traditional Ceremonies</a></li>
               <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Special Occasions</a></li>
             </ul>
           </div>
@@ -63,7 +63,7 @@ const Footer = () => {
           <div>
             <h3 className="font-semibold text-lg mb-4">Stay Updated</h3>
             <p className="text-gray-400 mb-4">
-              Subscribe to our newsletter for seasonal menus, special offers, and catering tips.
+              Subscribe to our newsletter for seasonal menus, special offers, and Ghanaian cooking tips.
             </p>
             <div className="flex">
               <input 
@@ -80,7 +80,7 @@ const Footer = () => {
         
         <div className="pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm mb-4 md:mb-0">
-            © {currentYear} Gourmet Catering. All rights reserved.
+            © {currentYear} Beatrice Mortey's Catering. All rights reserved.
           </p>
           <div className="flex space-x-6 text-sm text-gray-400">
             <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>

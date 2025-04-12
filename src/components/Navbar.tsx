@@ -35,7 +35,7 @@ const Navbar = () => {
       <div className="container-custom flex justify-between items-center">
         <a href="#" className="flex items-center space-x-2">
           <ChefHat className="h-8 w-8 text-catering-700" />
-          <span className="font-playfair text-xl md:text-2xl font-bold">Gourmet Catering</span>
+          <span className="font-playfair text-xl md:text-2xl font-bold">Beatrice Mortey's Catering</span>
         </a>
 
         {/* Desktop Menu */}

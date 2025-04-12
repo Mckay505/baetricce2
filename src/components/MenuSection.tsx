@@ -9,81 +9,81 @@ const MenuSection = () => {
   
   const menuItems = [
     {
-      name: "Herb-Crusted Rack of Lamb",
-      description: "Tender rack of lamb coated with herb crust, served with garlic mashed potatoes and seasonal vegetables",
-      price: "$32",
-      image: "https://images.unsplash.com/photo-1504544750208-dc0358e63f7f?q=80&w=2033&auto=format&fit=crop",
+      name: "Jollof Rice with Chicken",
+      description: "Spicy rice dish cooked in a rich tomato and pepper sauce, served with grilled chicken and fried plantains",
+      price: "GH₵85",
+      image: "https://images.unsplash.com/photo-1644372723344-fba4c0db2ddc?q=80&w=2070&auto=format&fit=crop",
       category: "Main Course",
       dietary: ["Gluten-Free"],
       featured: true,
       type: "mains"
     },
     {
-      name: "Wild Mushroom Risotto",
-      description: "Creamy Arborio rice cooked with a medley of wild mushrooms, finished with truffle oil and Parmesan",
-      price: "$24",
-      image: "https://images.unsplash.com/photo-1476124369491-e7addf5db371?q=80&w=2070&auto=format&fit=crop",
+      name: "Waakye",
+      description: "Rice and beans cooked together with millet leaves, served with stew, spaghetti, gari, and fried plantain",
+      price: "GH₵65",
+      image: "https://images.unsplash.com/photo-1604329760661-e71dc83f8f26?q=80&w=2070&auto=format&fit=crop",
       category: "Main Course",
-      dietary: ["Vegetarian"],
+      dietary: ["Vegetarian option available"],
       type: "mains"
     },
     {
-      name: "Seared Scallops",
-      description: "Pan-seared sea scallops with citrus beurre blanc, served on a bed of saffron-infused risotto",
-      price: "$28",
+      name: "Kelewele",
+      description: "Spicy fried plantains seasoned with ginger, cayenne pepper, and other spices",
+      price: "GH₵35",
       category: "Appetizer",
-      dietary: ["Gluten-Free"],
+      dietary: ["Vegan", "Gluten-Free"],
       type: "appetizers"
     },
     {
-      name: "Charcuterie Board",
-      description: "Selection of artisanal cheeses, cured meats, house-made pâté, seasonal fruits, nuts, and crackers",
-      price: "$36",
-      image: "https://images.unsplash.com/photo-1626200419199-391ae4be7f34?q=80&w=2033&auto=format&fit=crop",
+      name: "Ghanaian Meze Platter",
+      description: "Selection of Kelewele, Meat Pie, Shito Dip, Roast Peanuts, and Fried Yam",
+      price: "GH₵95",
+      image: "https://images.unsplash.com/photo-1695653422259-8a74ffe90bf6?q=80&w=2070&auto=format&fit=crop",
       category: "Sharing Platter",
       featured: true,
       type: "appetizers"
     },
     {
-      name: "Chocolate Fondant",
-      description: "Warm chocolate cake with a molten center, served with vanilla bean ice cream and raspberry coulis",
-      price: "$14",
-      image: "https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?q=80&w=2070&auto=format&fit=crop",
-      category: "Dessert",
-      dietary: ["Vegetarian"],
+      name: "Banku with Tilapia",
+      description: "Fermented corn and cassava dough served with grilled tilapia, pepper sauce, and fresh vegetables",
+      price: "GH₵110",
+      image: "https://images.unsplash.com/photo-1573806196892-8e9021f320cc?q=80&w=2070&auto=format&fit=crop",
+      category: "Main Course",
+      dietary: ["Gluten-Free"],
       featured: true,
-      type: "desserts"
+      type: "mains"
     },
     {
-      name: "Grilled Mediterranean Vegetables",
-      description: "Seasonal vegetables marinated in herbs and olive oil, grilled to perfection and drizzled with balsamic glaze",
-      price: "$18",
-      category: "Side Dish",
-      dietary: ["Vegan", "Gluten-Free"],
-      type: "sides"
+      name: "Kontomire Stew",
+      description: "Cocoyam leaves cooked with egusi seeds, smoked fish, and palm oil, served with boiled yam or plantain",
+      price: "GH₵70",
+      category: "Main Course",
+      dietary: ["Gluten-Free"],
+      type: "mains"
     },
     {
-      name: "Lobster Bisque",
-      description: "Rich and creamy soup made from lobster stock, brandy, and fresh herbs, garnished with lobster meat",
-      price: "$16",
+      name: "Groundnut Soup",
+      description: "Rich peanut-based soup with tender goat meat, served with fufu or rice balls",
+      price: "GH₵75",
       category: "Soup",
-      type: "appetizers"
+      type: "mains"
     },
     {
-      name: "Beef Wellington",
-      description: "Tenderloin of beef wrapped in puff pastry with mushroom duxelles, served with red wine reduction",
-      price: "$42",
-      image: "https://images.unsplash.com/photo-1600891964092-4316c288032e?q=80&w=2070&auto=format&fit=crop",
+      name: "Fufu with Light Soup",
+      description: "Pounded cassava and plantain dumpling served with spicy broth containing goat meat or fish",
+      price: "GH₵95",
+      image: "https://images.unsplash.com/photo-1641277667902-1776a952c861?q=80&w=2071&auto=format&fit=crop",
       category: "Main Course",
       featured: true,
       type: "mains"
     },
     {
-      name: "Fresh Berry Pavlova",
-      description: "Light and crisp meringue topped with whipped cream and fresh seasonal berries",
-      price: "$12",
+      name: "Boflot (Ghanaian Donuts)",
+      description: "Sweet, fluffy deep-fried dough balls, lightly dusted with sugar",
+      price: "GH₵25",
       category: "Dessert",
-      dietary: ["Vegetarian", "Gluten-Free"],
+      dietary: ["Vegetarian"],
       type: "desserts"
     }
   ];
@@ -96,9 +96,9 @@ const MenuSection = () => {
     <section id="menu" className="py-20 bg-gray-50">
       <div className="container-custom">
         <div className="text-center mb-16">
-          <h2 className="section-title">Sample Menu Selections</h2>
+          <h2 className="section-title">Authentic Ghanaian Menu</h2>
           <p className="section-subtitle">
-            Our menus are customizable to suit your event needs. Here's a sampling of our most popular dishes.
+            Our menus showcase authentic Ghanaian flavors with modern presentation. Here's a sampling of our most popular dishes.
           </p>
         </div>
 
@@ -147,7 +147,7 @@ const MenuSection = () => {
 
         <div className="text-center mt-12">
           <p className="text-gray-600 mb-6">
-            This is just a small selection from our extensive menu. 
+            This is just a small selection from our extensive Ghanaian menu. 
             Contact us to create a custom menu for your event.
           </p>
           <Button className="button-primary bg-catering-700">
