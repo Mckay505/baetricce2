@@ -204,8 +204,8 @@ const ContactSection = () => {
                 <Phone className="h-5 w-5 text-catering-700 mt-1 mr-4" />
                 <div>
                   <h4 className="font-semibold mb-1">Phone</h4>
-                  <p className="text-gray-600">Main Office: (555) 123-4567</p>
-                  <p className="text-gray-600">Bookings: (555) 765-4321</p>
+                  <p className="text-gray-600">Main Office: (233) 24-456-7890</p>
+                  <p className="text-gray-600">Bookings: (233) 20-123-4567</p>
                 </div>
               </div>
               
@@ -213,8 +213,8 @@ const ContactSection = () => {
                 <Mail className="h-5 w-5 text-catering-700 mt-1 mr-4" />
                 <div>
                   <h4 className="font-semibold mb-1">Email</h4>
-                  <p className="text-gray-600">info@gourmetcatering.com</p>
-                  <p className="text-gray-600">bookings@gourmetcatering.com</p>
+                  <p className="text-gray-600">info@beatricemortey.com</p>
+                  <p className="text-gray-600">bookings@beatricemortey.com</p>
                 </div>
               </div>
               
@@ -222,8 +222,8 @@ const ContactSection = () => {
                 <MapPin className="h-5 w-5 text-catering-700 mt-1 mr-4" />
                 <div>
                   <h4 className="font-semibold mb-1">Location</h4>
-                  <p className="text-gray-600">123 Culinary Avenue</p>
-                  <p className="text-gray-600">Gourmet City, GC 10001</p>
+                  <p className="text-gray-600">123 Cantonments Road</p>
+                  <p className="text-gray-600">Accra, Ghana</p>
                 </div>
               </div>
               
@@ -231,8 +231,8 @@ const ContactSection = () => {
                 <Clock className="h-5 w-5 text-catering-700 mt-1 mr-4" />
                 <div>
                   <h4 className="font-semibold mb-1">Business Hours</h4>
-                  <p className="text-gray-600">Monday - Friday: 9:00 AM - 6:00 PM</p>
-                  <p className="text-gray-600">Saturday: 10:00 AM - 4:00 PM</p>
+                  <p className="text-gray-600">Monday - Friday: 9:00 AM - 5:00 PM</p>
+                  <p className="text-gray-600">Saturday: 10:00 AM - 2:00 PM</p>
                   <p className="text-gray-600">Sunday: Closed (By Appointment Only)</p>
                 </div>
               </div>
@@ -241,8 +241,8 @@ const ContactSection = () => {
             <div className="mt-10 p-6 bg-catering-50 rounded-lg border border-catering-100">
               <h4 className="font-semibold mb-3">Book a Tasting Session</h4>
               <p className="text-gray-600 mb-4">
-                Experience our culinary creations firsthand before making your decision. 
-                Schedule a complimentary tasting session with our chef.
+                Experience our authentic Ghanaian cuisine firsthand before making your decision. 
+                Schedule a complimentary tasting session with Chef Beatrice.
               </p>
               <Button variant="outline" className="border-catering-700 text-catering-700 hover:bg-catering-50">
                 Schedule Tasting
