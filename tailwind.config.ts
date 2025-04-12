@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -52,6 +53,45 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				catering: {
+					50: '#fdf2f4',
+					100: '#fce8ea',
+					200: '#f8d0d6',
+					300: '#f4a4b0',
+					400: '#ec6d82',
+					500: '#e34363',
+					600: '#cf2346',
+					700: '#ae1a3a',
+					800: '#951838',
+					900: '#7c1933',
+					950: '#450a1a',
+				},
+				gold: {
+					50: '#fbf6e9',
+					100: '#f5ebc5',
+					200: '#edd98e',
+					300: '#e5c357',
+					400: '#dfb034',
+					500: '#cb9320',
+					600: '#ac7019',
+					700: '#874e17',
+					800: '#733e1a',
+					900: '#64341a',
+					950: '#3b1c0c',
+				},
+				forest: {
+					50: '#f1f7ee',
+					100: '#dfecd9',
+					200: '#c1dab7',
+					300: '#9cc18d',
+					400: '#7ba56a',
+					500: '#5e8a4f',
+					600: '#476f3e',
+					700: '#385833',
+					800: '#2e472c',
+					900: '#273d26',
+					950: '#132113',
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -62,6 +102,10 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				}
+			},
+			fontFamily: {
+				playfair: ['"Playfair Display"', 'serif'],
+				raleway: ['"Raleway"', 'sans-serif'],
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
